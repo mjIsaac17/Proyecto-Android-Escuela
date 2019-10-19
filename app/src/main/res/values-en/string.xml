@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginInterface_With_Image</string>
+    <string name="txt_user">User</string>
+    <string name="txt_password">Password</string>
+    <string name="btn_sign_in">Sign in</string>
+</resources>

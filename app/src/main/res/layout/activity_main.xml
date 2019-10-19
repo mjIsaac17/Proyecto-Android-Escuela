@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.logininterface_with_image.MainActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/et_user"
+        android:layout_width="250sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="#A8F8F4F4"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/txt_user"
+        android:inputType="textPersonName"
+        android:textColorHint="#B3000000" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="250sp"
+        android:layout_height="35sp"
+        android:layout_below="@+id/et_user"
+        android:layout_alignStart="@+id/et_user"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="31dp"
+        android:layout_centerHorizontal="true"
+        android:background="#A8F8F4F4"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/txt_password"
+        android:inputType="textPassword"
+        android:textColorHint="#B3000000" />
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="#0041F5D9"
+        android:onClick="signIn"
+        android:text="@string/btn_sign_in"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="143dp"
+        android:layout_height="137dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/user" />
+
+    <Button
+        android:id="@+id/btn_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_signIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:onClick="verCards"
+        android:text="@string/verCards"
+        android:theme="@style/btnStyle" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_flotante"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_style"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        app:backgroundTint="@color/colorAccent" />
+
+
+
+</RelativeLayout>

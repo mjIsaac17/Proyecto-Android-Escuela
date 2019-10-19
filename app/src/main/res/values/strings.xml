@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LoginInterface_With_Image</string>
+    <string name="txt_user">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="btn_sign_in">Iniciar Sesión</string>
+    <string name="onCreate">onCreate</string>
+    <string name="onStart">onStart</string>
+    <string name="onResume">onResume</string>
+    <string name="onRestart">onRestart</string>
+    <string name="onPause">onPause</string>
+    <string name="onStop">onStop</string>
+    <string name="onDestroy">onDestroy</string>
+    <string name="tituloCard">Hamburguesa</string>
+    <string name="descripcionCard">Es una hamburguesa sencilla a solo 2$</string>
+
+    <string name="verCards">Ver cards</string>
+    <string-array name="lst_numeros1_3">
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+    </string-array>
+    <string-array name="lst_numeros4_6">
+        <item>cuatro</item>
+        <item>cinco</item>
+        <item>seis</item>
+    </string-array>
+
+    <string-array name="nombres">
+        <item>Isaac Montes</item>
+        <item>Ana Hernández</item>
+        <item>Daniel López</item>
+        <item>Susan Díaz</item>
+    </string-array>
+
+</resources>

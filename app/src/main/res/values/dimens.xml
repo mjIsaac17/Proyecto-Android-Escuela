@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_ancho200">200dp</dimen>
+    <dimen name="card_alto200">200dp</dimen>
+    <dimen name="card_titulo">20dp</dimen>
+
+    <dimen name="szNombreContacto">40dp</dimen>
+</resources>

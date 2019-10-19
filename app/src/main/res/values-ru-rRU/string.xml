@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoginInterface_With_Image</string>
+    <string name="txt_user">пользователь</string>
+    <string name="txt_password">пароль</string>
+    <string name="btn_sign_in">войти в систему</string>
+</resources>
